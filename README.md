@@ -1,6 +1,6 @@
-# Renovate reads a nested npm override pin from the hoisted package
+# Renovate discussion #46902
 
-Minimal reproduction for a [Renovate](https://github.com/renovatebot/renovate) discussion. See the
+Minimal reproduction for [renovatebot/renovate#46902](https://github.com/renovatebot/renovate/discussions/46902): Renovate reads a nested npm override pin from the hoisted package. See the
 [minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
 
 `package.json` pins `brace-expansion` to `1.1.21` for `minimatch@3.1.5` only, through a nested
@@ -44,4 +44,4 @@ In the `"packageFiles with updates"` record, look at the dependency with `"depTy
 
 ## Link to the Renovate issue or Discussion
 
-Added once the discussion is open.
+https://github.com/renovatebot/renovate/discussions/46902
